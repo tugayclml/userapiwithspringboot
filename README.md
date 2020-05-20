@@ -3,12 +3,12 @@
 Merhabalar, bu repository de Spring Boot ile CRUD işlemlerini yapabileceğiniz bir rest api tasarladım. Ayrıca 
 pagination işlemleri yapabilecek bir endpoint tanımladım. Bu endpoint de PagingAndSortingRepository kullandım.
 
-Endpoints:
-  GET     : /api/users *Bütün kullanıcıların bilgilerini içerir
-  GET     : /api/users/{id} *Verilen id bilgisine göre o id'ye ait kişi bilgisi içerir
-  POST    : /api/users *Kullanıcı oluşturmak
-  PUT     : /api/users/{id} *Verilen id bilgisine göre o id'ye ait kişi bilgilerini günceller
-  DELETE  : /api/users/{id} *Verilen id bilgisine göre o id'ye ait kişiyi siler
+Endpoints:<br/>
+  GET     : /api/users *Bütün kullanıcıların bilgilerini içerir <br/>
+  GET     : /api/users/{id} *Verilen id bilgisine göre o id'ye ait kişi bilgisi içerir<br/>
+  POST    : /api/users *Kullanıcı oluşturmak<br/>
+  PUT     : /api/users/{id} *Verilen id bilgisine göre o id'ye ait kişi bilgilerini günceller<br/>
+  DELETE  : /api/users/{id} *Verilen id bilgisine göre o id'ye ait kişiyi siler<br/>
   
  Bu projeyi clone ettikten sonra Eclipse yada Intellij IDEA üzerinde açabilirsiniz. Ben Intelij İDEA kullanıyorum.
  Projeyi IDE üzerinde açtıktan sonra pom.xml dosyasındaki kütüphaneleri IDE otamatik olarak yükleyecektir.
